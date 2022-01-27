@@ -1,0 +1,92 @@
+.action-btn {
+    background-image: linear-gradient(
+		40deg,#5927E9,#FF6D42);
+}
+
+
+.action-btn svg {
+    transition: all 0.3s ease;
+}
+
+.action-btn:hover svg {
+    transform: translateX(3px);
+}
+
+.custom-text-style {
+    color: transparent !important;
+    -webkit-text-stroke: 0.1vw #fff !important;
+}
+
+
+html.dark .custom-text-style {
+    -webkit-text-stroke: 0.1vw #000 !important;
+}
+
+.icons svg {
+    transition: fill 0.3s ease;
+}
+
+
+.icons svg:not(:nth-child(3)) {
+    cursor: pointer;
+}
+.icons svg:nth-child(3) {
+    cursor: pointer;
+}
+
+
+.icons svg:not(:nth-child(3)):hover {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.icons svg:nth-child(3):hover {
+    stroke: #fff;
+}
+
+html.dark .icons svg:not(:nth-child(3)):hover {
+    fill: #000;
+    stroke: #000;
+}
+
+html.dark .icons svg:nth-child(3):hover {
+    stroke: #000;
+}
+/* .toogle-animation {
+ *     transition-timing-function: cubic-bezier(1, -0.62, 0.64, 2.15);
+ *     transform: scale(1) !important;
+ *     opacity: 1 !important;
+ * } */
+
+
+.icons svg:hover {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    /* fill:  ; */
+}
+
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
