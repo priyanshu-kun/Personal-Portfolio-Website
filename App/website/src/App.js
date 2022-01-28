@@ -1,6 +1,6 @@
-import {useState, useEffect} from "react"
+import {useState, useEffect} from 'react'
 import './App.css';
-import Home from "./Home/Home"
+import Home from './Home/Home'
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className={`bg-background-primary-dark-color relative z-0 App ${nav && "nav-active"} h-screen min-h-screen `}>
+    <div className={`relative z-0 App ${nav && 'nav-active'} h-screen min-h-screen `}>
         <Home trigger={trigger}  nav={nav} />
     </div>
   );

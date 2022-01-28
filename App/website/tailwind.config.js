@@ -7,12 +7,16 @@ module.exports = {
   ],  
   theme: {    
      maxWidth: {
+         '10rem':'13rem',
           '128': '36rem',
           '168': '42rem',
           '178': '52rem',
      },
      minWidth: {
         '80': '20rem',
+     },
+     minHeight: {
+         '20rem':'20rem'
      },
        fontSize: {
          'super-tiny': '.6rem',

@@ -31,11 +31,6 @@
           transition-delay: 0s;
 }
 
-html.dark .nav:after {
-	background: #ff8a67;
-	-webkit-transition-delay: 0s;
-          transition-delay: 0s;
-}
 
 .nav:before {
 	-webkit-transition-delay: .2s;

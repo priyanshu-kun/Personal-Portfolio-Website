@@ -3,21 +3,21 @@
 @tailwind utilities; 
 
 @font-face {
-  font-family: "HelveticaNowDisplay-Black";
-  src: url("./Assets/font/HelveticaNowDisplay-Black.woff2") format("woff2"),
-    url("./Assets/font/HelveticaNowDisplay-Black.woff") format("woff");
+  font-family: 'HelveticaNowDisplay-Black';
+  src: url('./Assets/font/HelveticaNowDisplay-Black.woff2') format('woff2'),
+    url('./Assets/font/HelveticaNowDisplay-Black.woff') format('woff');
 }
 
 @font-face {
-  font-family: "HelveticaNowDisplay-Bold";
-  src: url("./Assets/font/HelveticaNowDisplay-Bold.woff2") format("woff2"),
-    url("./Assets/font/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-family: 'HelveticaNowDisplay-Bold';
+  src: url('./Assets/font/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+    url('./Assets/font/HelveticaNowDisplay-Bold.woff') format('woff');
 }
 
 @font-face {
-  font-family: "HelveticaNowDisplay-Medium";
-  src: url("./Assets/font/HelveticaNowDisplay-Medium.woff2") format("woff2"),
-    url("./Assets/font/HelveticaNowDisplay-Medium.woff") format("woff");
+  font-family: 'HelveticaNowDisplay-Medium';
+  src: url('./Assets/font/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+    url('./Assets/font/HelveticaNowDisplay-Medium.woff') format('woff');
 }
 
 
@@ -111,8 +111,8 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  /* font-family: "SF-Pro-Display-Black.otf"; */
-  font-family: "HelveticaNowDisplay-Medium", sans-serif;
+  /* font-family: 'SF-Pro-Display-Black.otf'; */
+  font-family: 'HelveticaNowDisplay-Medium', sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -133,6 +133,7 @@ section {
 body {
   z-index: -1;
   line-height: 1;
+  background: #121212;
 }
 
 ol,

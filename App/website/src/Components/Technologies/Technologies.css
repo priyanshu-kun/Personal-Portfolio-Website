@@ -1,0 +1,161 @@
+.img-box img {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='white' stroke-width='6' stroke-dasharray='15%2c 15%2c 1' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 100px;
+    box-sizing: border-box;
+    object-fit: contain;
+    margin: 10px;
+}
+
+
+.programming-lang,.backend,.databases {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+.img-box.programming-lang img, .img-box.backend img, .img-box.databases img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.Frontend,.ui_ux {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    place-content: center;
+    place-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.img-box.Frontend img,.img-box.ui_ux img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+
+.buttons button {
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+
+.buttons button img {
+    opacity: 0.3;
+}
+
+
+.buttons button span {
+    opacity: 0.6;
+    color: #fff;
+}
+
+
+
+.buttons button {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    /* border-bottom: 1px solid  rgb(255, 255, 255,0.1); */
+}
+
+/* .buttons button::after {
+ *     content: "";
+ *     position: absolute;
+ *     bottom: 0;
+ *     left: 50%;
+ *     width: 90%;
+ *     transform: translateX(-50%);
+ *     height: 1px;
+ *     background-color: rgba(255, 255, 255, 0.1);
+ * } */
+
+.buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttons button:hover::after {
+    transition: none;
+    visibility: hidden;
+}
+
+
+
+.tabs-active {
+    background-color: #5927E9;
+}
+
+.buttons button.tabs-active:hover {
+    background-color: #5927E9;
+}
+
+.buttons button.tabs-active::after {
+    transition: none;
+    visibility: hidden;
+}
+
+
+.buttons button.tabs-active img {
+    opacity: 1;
+}
+
+
+.buttons button.tabs-active span {
+    opacity: 1;
+}
+
+
+.skills {
+}
+
+
+
+.skills::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(243, 70, 142, 0.3);
+    box-shadow: -100px -10px 0 rgb(89, 39, 233, 0.3);
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+
+
+
+.skills::after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 255, 8, 0.3);
+    box-shadow: 100px 60px 0 rgb(255, 235, 59, 0.3);
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        filter: blur(80px) hue-rotate(0deg);
+    }
+
+    100% {
+
+        filter: blur(80px) hue-rotate(360deg);
+    }
+}
+
