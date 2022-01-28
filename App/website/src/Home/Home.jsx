@@ -3,13 +3,13 @@ import Header from "../Components/Header/Header.jsx"
 import "./Home.css"
 
 
- export default function Home({trigger, nav, isDarkMode, toogleTheme}) {
+ export default function Home({trigger, nav}) {
 
 
 
     return (
       <>
-          <Header trigger={trigger} nav={nav} toogleTheme={toogleTheme} isDarkMode={isDarkMode} /> 
+          <Header trigger={trigger} nav={nav}  /> 
       </>
     )
 }
