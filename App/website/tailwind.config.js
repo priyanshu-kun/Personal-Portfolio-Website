@@ -7,7 +7,8 @@ module.exports = {
   ],  
   theme: {    
      maxWidth: {
-         '10rem':'13rem',
+          '10rem':'10rem',
+          '16rem':'16rem',
           '128': '36rem',
           '168': '42rem',
           '178': '52rem',
@@ -23,7 +24,7 @@ module.exports = {
          'tiny': '.8rem',
          'base': '1rem',
          'lg': '1.125rem',
-         'xl': '1.25rem',
+         'xl': '1.3rem',
          '2xl': '1.5rem',
          '3xl': '2rem',
          '4xl': '2.5rem',
@@ -36,7 +37,7 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         'background-primary-dark-color':'#121212',
-        'background-secondary-dark-color':'#1a1a1d',
+        'background-secondary-dark-color':'#141414',
         'background-primary-light-color':'#FFFDDE',
         'background-secondary-light-color':'#D9D7F1',
         'background-primary-accent-color':'#3500d3',
