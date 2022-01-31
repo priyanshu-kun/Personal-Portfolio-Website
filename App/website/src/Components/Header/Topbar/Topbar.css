@@ -47,3 +47,8 @@
 .menu-icon:hover .menu-icon__line-right {
 	width: 30px;
 }
+
+
+.topbar-section {
+	max-width: 2000px;
+}

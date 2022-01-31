@@ -186,3 +186,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
+
+
+.App {
+    max-width: 2000px;
+    margin: 0 auto;
+}

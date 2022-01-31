@@ -20,7 +20,7 @@ import Topbar from './Topbar/Topbar.jsx'
 
 
     return (
-      <header className='h-screen flex flex-col items-start justify-center sm:items-center xl:flex-row xl:relative'>
+      <header className='header-section h-screen flex flex-col items-start justify-center sm:items-center xl:flex-row xl:relative'>
           <Topbar trigger={trigger} nav={nav}  /> 
           <div className='canvas-design  h-full w-full absolute top-0 left-0'>
             <canvas  ref={inputEl} id='sky' ></canvas>

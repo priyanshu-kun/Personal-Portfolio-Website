@@ -11,7 +11,7 @@ import './Home.css'
     return (
       <>
           <Header trigger={trigger} nav={nav}  /> 
-          <Technologies /> 
+          <Technologies />
       </>
     )
 }

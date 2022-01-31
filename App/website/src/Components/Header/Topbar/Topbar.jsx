@@ -9,7 +9,7 @@ import './Topbar.css'
 
     
     return (
-      <div className='bg-background-primary-dark-color fixed z-99999999999999 top-0 left-0 w-full border-b border-txt-primary-dark-bg/10  border-solid h-16 w-full'>
+      <div className=' bg-background-primary-dark-color fixed z-99999999999999 top-0 w-full border-b border-txt-primary-dark-bg/10  border-solid h-16 mx-auto topbar-section'>
         <div className='mx-auto flex justify-between normal:px-6 items-center h-full max-w-7xl tiny:px-2 lg:px-32'>
           <div className='font-accentFont text-txt-primary-dark-bg font-black text-sm hidden normal:block lg:text-lg'>👋 Priyanshu Sharma</div> 
           <div className='font-accentFont text-txt-primary-dark-bg font-black text-sm  tiny:block normal:hidden'>👋 Priyanshu S</div> 
