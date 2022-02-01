@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities; 
 
+
+
 @font-face {
   font-family: 'HelveticaNowDisplay-Black';
   src: url('./Assets/font/HelveticaNowDisplay-Black.woff2') format('woff2'),

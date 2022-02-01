@@ -66,8 +66,8 @@ module.exports = {
           '18': '4.2rem',
        },
        transitionDelay: {
-          '0':'0ms',
           '350': '350ms',
+          '800': '800ms',
        },
        fontFamily: {
         bodyText: ['HelveticaNowDisplay-Medium', 'sans-serif'],
@@ -77,7 +77,7 @@ module.exports = {
       },
        zIndex: {        
           'nv-1':'-1',
-          '9999999999': '9999999999',
+          '99999999': '99999999',
        },
        height: {
           '128': '32rem',

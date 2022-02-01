@@ -92,7 +92,7 @@ import './Technologies.css'
 
     return (
         <div className="h-screen relative w-full flex z-0 items-center justify-center z-nv-1 technologies-section ">
-            <div className="skills-cover w-10/12 h-4/5 mt-12 relative ">
+            <div className="skills-cover w-10/12 h-3/5 400:h-4/5 mt-12 relative ">
                 <h1 className=" text-center  text-lg 400:text-2xl  relative font-primaryHeading text-txt-primary-dark-bg before:content-[''] before:absolute before:-bottom-2 before:rounded-full before:left-1/2 before:transform before:-translate-x-2/4 md:before:left-0 md:before:-translate-x-0 md:text-left before:w-11/12 before:h-1 before:bg-background-secondary-accent-color before:max-w-16rem 400:before:h-2 400:before:-bottom-4 md:before:h-2 md:before:-bottom-4 lg:before:max-w-10rem lg:text-xl main-heading lg:before:left-14">Skills, That I have - </h1>
                 <div className="skills bg-background-secondary-dark-color  min-h-20rem w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  rounded-lg border border-solid border-txt-primary-dark-bg/10 max-w-128 lg:max-w-178 lg:px-12 lg:py-4 lg:h-128 ">
                     <p className="hidden text-tiny font-primaryHeading 400:block 400:text-center text-txt-primary-dark-bg py-6 px-8 lg:px-0 lg:text-left lg:py-0 lg:pt-4 lg:pb-6 lg:text-base" >PATH*  <span className="ml-2 lg:ml-4 opacity-60 font-secondaryHeading text-sm">SKILLS {path}</span></p>
