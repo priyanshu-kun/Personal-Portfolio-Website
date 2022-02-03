@@ -33,6 +33,75 @@ export default function Work() {
                 </div>
                 <SearchBar searchComp={searchComp} handleSearchComponent={handleSearchComponent} />
             </div>
+            <div className="projects  w-3/4 mx-auto mt-16  pb-8" >
+                <div className="w-32rem  h-40rem mx-auto relative overflow-hidden">
+                    <img className="opacity-80" src={img1} alt="project 1" />
+                  <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
+                    <h1>01</h1>
+                        <div className="w-96 mt-20 ml-14">
+                            <h2 className="font-heading text-2xl">Project</h2>
+                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
+                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-32rem  h-40rem mx-auto relative overflow-hidden">
+                    <img className="opacity-80" src={img2} alt="tu tu tu" />
+                    <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
+                        <h1>02</h1>
+                        <div className="w-96 mt-20 ml-14">
+                            <h2 className="font-heading text-2xl">Project</h2>
+                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
+                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-32rem  h-40rem mx-auto relative overflow-hidden">
+                    <img className="opacity-80" src={img3} alt="project 3" />
+                    <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
+                        <h1>03</h1>
+                        <div className="w-96 mt-20 ml-14">
+                            <h2 className="font-heading text-2xl">Project</h2>
+                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
+                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                        </div>
+                    </div>
+                </div>
+                <div className=" w-32rem  h-40rem mx-auto relative overflow-hidden">
+                    <img className="opacity-80" src={img4} alt="project 4" />
+                    <div className={` projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
+                        <h1>04</h1>
+                        <div className="w-96 mt-20 ml-14">
+                            <h2 className="font-heading text-2xl">Project</h2>
+                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
+                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                        </div>
+                    </div>
+                </div>
+                <div  className="w-32rem  h-40rem mx-auto relative overflow-hidden">
+                    <img className="opacity-80" src={img5} alt="project 5" />
+                    <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
+                        <h1>05</h1>
+                        <div className="w-96 mt-20 ml-14">
+                            <h2 className="font-heading text-2xl">Project</h2>
+                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
+                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                        </div>
+                    </div>
+                </div>
+                <div  className="w-32rem  h-40rem mx-auto relative overflow-hidden">
+                    <img className="opacity-80" src={img6} alt="project 6" />
+                    <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
+                        <h1>06</h1>
+                        <div className="w-96 mt-20 ml-14">
+                            <h2 className="font-heading text-2xl">Project</h2>
+                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
+                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
       </div>
     )
 }
