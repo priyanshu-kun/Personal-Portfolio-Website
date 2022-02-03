@@ -91,7 +91,7 @@ import './Technologies.css'
 
 
     return (
-        <div className="h-screen relative w-full flex z-0 items-center justify-center z-nv-1 technologies-section ">
+        <div className="h-screen relative w-full flex z-0 items-center justify-center z-nv-1 technologies-section lg:mt-20">
             <div className="skills-cover w-10/12 h-3/5 400:h-4/5 mt-12 relative ">
                 <h1 className=" text-center  text-lg 400:text-2xl  relative font-primaryHeading text-txt-primary-dark-bg before:content-[''] before:absolute before:-bottom-2 before:rounded-full before:left-1/2 before:transform before:-translate-x-2/4 md:before:left-0 md:before:-translate-x-0 md:text-left before:w-11/12 before:h-1 before:bg-background-secondary-accent-color before:max-w-16rem 400:before:h-2 400:before:-bottom-4 md:before:h-2 md:before:-bottom-4 lg:before:max-w-10rem lg:text-xl main-heading lg:before:left-14">Skills, That I have - </h1>
                 <div className="skills bg-background-secondary-dark-color  min-h-20rem w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  rounded-lg border border-solid border-txt-primary-dark-bg/10 max-w-128 lg:max-w-178 lg:px-12 lg:py-4 lg:h-128 ">
@@ -102,7 +102,7 @@ import './Technologies.css'
                             <button onClick={() => {
                                 handleTabs(1)
                                 setPath("/ PROGRAMMING / PROGRAMMING-LANGUAGES")
-                            }} className={`${toogle === 1 && "tabs-active"}  h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-7 -mt-2" src={Programming} alt="programming language logo" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading   -mt-2 text-sm max-w-120px">Programming Lang</span></button>
+                            }} className={`${toogle === 1 && "tabs-active"}  h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-7 -mt-2" src={Programming} alt="programming language logo" /><span className=" whitespace-nowrap font-secondaryHeading   -mt-2 text-sm max-w-120px">Programming Lang</span></button>
                             <button onClick={() => {
                                 handleTabs(2)
                                 setPath("/ DEVELOPMENT / FRONTEND")

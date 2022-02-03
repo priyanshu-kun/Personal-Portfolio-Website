@@ -1,1 +1,0 @@
-        <div className={`w-4/5 text-tiny mx-auto  pointer-events-none  ${searchComp && "opacity-100 pointer-events-auto"}`}>
