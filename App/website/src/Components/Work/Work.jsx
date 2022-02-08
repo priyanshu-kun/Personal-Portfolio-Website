@@ -1,4 +1,6 @@
 import React,{useState} from 'react'
+import {FiGithub, FiLink} from "react-icons/fi"
+import {IconContext} from 'react-icons'
 import SearchBar from './Search/Search.jsx'
 import FilterBtn from './Filter/Filter.jsx'
 import Search from "../../Assets/icons/search.svg"
@@ -16,6 +18,16 @@ export default function Work() {
 
     const [searchComp, setSearchComp] = useState(false)
     const [opacity, setOpacity] = useState(false)
+    const [card1, setCard1] = useState(false)
+    const [card2, setCard2] = useState(false)
+    const [card3, setCard3] = useState(false)
+    const [card4, setCard4] = useState(false)
+    const [card5, setCard5] = useState(false)
+    const [card6, setCard6] = useState(false)
+
+
+
+
 
 
     const handleSearchComponent = () => {
@@ -34,14 +46,31 @@ export default function Work() {
                 <SearchBar searchComp={searchComp} handleSearchComponent={handleSearchComponent} />
             </div>
             <div className="projects  w-3/4 mx-auto mt-16  pb-8" >
-                <div className="w-32rem  h-40rem mx-auto relative overflow-hidden">
+                <div onMouseEnter={() => {
+                    setCard1(true)
+                }} onMouseLeave={() => {
+                    setCard1(false)
+                }} className="w-32rem  h-40rem mx-auto relative overflow-hidden">
                     <img className="opacity-80" src={img1} alt="project 1" />
-                  <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 hide-project-overlay hover:bg-background-secondary-dark-color/80`}>
-                    <h1>01</h1>
-                        <div className="w-96 mt-20 ml-14">
-                            <h2 className="font-heading text-2xl">Project</h2>
-                            <p className="my-3 text-sm font-secondaryHeading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quae reiciendis? Est voluptates nemo, ipsa officiis atque amet harum esse, laudantium explicabo ut, placeat corporis perferendis!</p>
-                            <button className="font-secondaryHeading underline cursor-pointer">Find More -</button>
+                    <div className={` ${true ? "projects-overlay": "hide-project-overlay"} absolute top-0 left-0 bottom-0 right-0  hover:bg-background-secondary-dark-color/80 flex flex-col justify-between`}>
+                        <h1 className="mt-2 mr-6 fit:mr-12">01</h1>
+                        <div className="w-40 ml-4 bg-red-500">
+                            <h2 className="font-primaryHeading text-txt-primary-dark-bg/60 text-sm">Bug Traker - A project to track and solve bugs.</h2>
+                            <p className="text-super-tiny normal:text-tiny my-2 text-txt-primary-dark-bg/80">Reactjs / Nodejs / MongoDB / RestAPI</p>
+                            <button className="mr-4 mt-2 font-secondaryHeading underline cursor-pointer text-tiny">
+                              <IconContext.Provider
+                                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-4 h-4 normal:w-5 normal:h-5 ' }}
+                              >
+                                    <FiGithub />
+                              </IconContext.Provider>
+                            </button>
+                            <button className="mt-2 font-secondaryHeading underline cursor-pointer text-tiny">
+                              <IconContext.Provider
+                                value={{ className: 'text-txt-primary-dark-bg opacity-60 w-4 h-4 normal:w-5 normal:h-5' }}
+                              >
+                                    <FiLink />
+                              </IconContext.Provider>
+                            </button>
                         </div>
                     </div>
                 </div>
