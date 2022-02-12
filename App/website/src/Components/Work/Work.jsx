@@ -52,21 +52,21 @@ export default function Work() {
                     setCard1(false)
                 }} className="w-32rem  h-40rem mx-auto relative overflow-hidden">
                     <img className="opacity-80" src={img1} alt="project 1" />
-                    <div className={` ${true ? "projects-overlay": "hide-project-overlay"} absolute top-0 left-0 bottom-0 right-0  hover:bg-background-secondary-dark-color/80 flex flex-col justify-between`}>
-                        <h1 className="mt-2 mr-6 fit:mr-12">01</h1>
-                        <div className="w-40 ml-4 bg-red-500">
-                            <h2 className="font-primaryHeading text-txt-primary-dark-bg/60 text-sm">Bug Traker - A project to track and solve bugs.</h2>
-                            <p className="text-super-tiny normal:text-tiny my-2 text-txt-primary-dark-bg/80">Reactjs / Nodejs / MongoDB / RestAPI</p>
-                            <button className="mr-4 mt-2 font-secondaryHeading underline cursor-pointer text-tiny">
+                    <div className={` ${true ? "projects-overlay": "hide-project-overlay"} absolute top-0 left-0 bottom-0 right-0   flex flex-col justify-between`}>
+                        <h1 className="">01</h1>
+                        <div className="">
+                            <h2 className="font-primaryHeading text-txt-primary-dark-bg/60 ">Bug Traker - A project to track and solve bugs.</h2>
+                            <p className="">Reactjs / Nodejs / MongoDB / RestAPI</p>
+                            <button className="">
                               <IconContext.Provider
-                                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-4 h-4 normal:w-5 normal:h-5 ' }}
+                                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-4 h-4 normal:w-5 normal:h-5 fit:w-6 fit:h-6' }}
                               >
                                     <FiGithub />
                               </IconContext.Provider>
                             </button>
                             <button className="mt-2 font-secondaryHeading underline cursor-pointer text-tiny">
                               <IconContext.Provider
-                                value={{ className: 'text-txt-primary-dark-bg opacity-60 w-4 h-4 normal:w-5 normal:h-5' }}
+                                value={{ className: 'text-txt-primary-dark-bg opacity-60 w-4 h-4 normal:w-5 normal:h-5 fit:w-6 fit:h-6' }}
                               >
                                     <FiLink />
                               </IconContext.Provider>

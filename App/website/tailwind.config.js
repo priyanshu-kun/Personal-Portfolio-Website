@@ -32,6 +32,7 @@ module.exports = {
          '6xl': '4rem',
          '7xl': '4.6rem',
          '8xl': '6rem',
+         'fulid': '7vw'
        },
      colors: {
         transparent: 'transparent',
@@ -84,6 +85,7 @@ module.exports = {
           '128': '32rem',
        },
        width: {
+          '28rem': '30rem',
           '128': '32rem',
           '168': '42rem',
        },
