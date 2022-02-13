@@ -38,7 +38,7 @@
 }
 
 .projects-overlay h1 {
-    font-size: 40vw;
+    font-size: 50vw;
     font-family: "HelveticaNowDisplay-Black";
     opacity: 0.1;
     color: #fff;
@@ -47,17 +47,57 @@
 
 }
 
+
+
+@media screen and (min-width: 768px) {
+
+    .projects-overlay h1 {
+        font-size: 26vw;
+    }
+}
+
 @media screen and (min-width: 1000px) {
 
     .projects-overlay h1 {
         font-size: 300px;
     }
 }
+@media screen and (min-width: 400px) {
+    .projects {
+        grid-template-rows: 550px;
+    }
+}
 
 
-@media screen and (min-width: 720px) {
+
+@media screen and (min-width: 550px) {
+    .projects {
+        grid-template-rows: 650px;
+    }
+}
+
+
+
+@media screen and (min-width: 620px) {
+    .projects {
+        grid-template-rows: 800px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
     .projects {
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        grid-template-rows: repeat(3, 550px);
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .projects {
+        grid-gap: 2rem;
+        grid-template-rows: repeat(3, 700px);
     }
 }
 
