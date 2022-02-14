@@ -29,16 +29,14 @@
 
 
 .projects-overlay {
-    /* background-image: linear-gradient(
-		-40deg,#5927E9,#bb1aca); */
+    background-image: linear-gradient(
+		-40deg,#5927E9,#bb1aca);
         /* border: 6px solid rgb(255, 255, 255); */
         /* opacity: 0; */
-        background-color: rgb(18, 18, 18);
-        border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .projects-overlay h1 {
-    font-size: 50vw;
+    font-size: 40vw;
     font-family: "HelveticaNowDisplay-Black";
     opacity: 0.1;
     color: #fff;
@@ -52,14 +50,14 @@
 @media screen and (min-width: 768px) {
 
     .projects-overlay h1 {
-        font-size: 26vw;
+        font-size: 22vw;
     }
 }
 
 @media screen and (min-width: 1000px) {
 
     .projects-overlay h1 {
-        font-size: 300px;
+        font-size: 200px;
     }
 }
 @media screen and (min-width: 400px) {
@@ -97,7 +95,7 @@
 @media screen and (min-width: 1024px) {
     .projects {
         grid-gap: 2rem;
-        grid-template-rows: repeat(3, 700px);
+        grid-template-rows: repeat(3, 650px);
     }
 }
 
