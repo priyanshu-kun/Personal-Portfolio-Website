@@ -78,7 +78,7 @@ export default function Work() {
           setCard2(true)
         }} onMouseLeave={() => {
           setCard2(false)
-        }} className="w-full h-full  mx-auto relative overflow-hidden">
+        }} className="w-full h-full  mx-auto relative overflow-hidden project-card">
           <img className="opacity-80" src={img2} alt="project 1" />
           <div className={` ${card2 ? "projects-overlay" : "hide-project-overlay"} projects-overlay absolute top-0 left-0 bottom-0 right-0 flex flex-col justify-between transition duration-300`}>
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">02</h1>
