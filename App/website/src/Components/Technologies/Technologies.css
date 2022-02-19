@@ -142,12 +142,11 @@
 
 
 .tabs-active {
-    background-color: #5927E9;
+    background-image: linear-gradient(
+		40deg,#5927E9,#FF6D42);
 }
 
-.buttons button.tabs-active:hover {
-    background-color: #5927E9;
-}
+
 
 .buttons button.tabs-active::after {
     transition: none;
