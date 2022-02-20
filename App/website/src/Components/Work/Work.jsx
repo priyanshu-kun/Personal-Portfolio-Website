@@ -56,17 +56,17 @@ export default function Work() {
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">01</h1>
             <div className="h-full w-52 ml-6 pt-4 normal:w-72 normal:ml-8 fit:ml-12 tempScreen:w-96 tempScreen:pt-8 tempScreen:ml-12 md:w-3/4 md:ml-8 lg:ml-12 lg:w-96 lg:pt-14">
               <h2 className="font-primaryHeading text-txt-primary-dark-bg/80 text-xl normal:text-3xl tempScreen:text-4xl md:text-3xl lg:text-4xl">Bug Traker - A project to track and solve bugs.</h2>
-              <p className="text-tiny my-4 text-txt-primary-dark-bg/80 fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
+              <p className="text-tiny my-4 font-secondaryHeading fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
               <button className="mr-4 tempScreen:mr-8 cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5 fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5 fit:w-6 fit:h-6' }}
                 >
                   <FiGithub />
                 </IconContext.Provider>
               </button>
               <button className="cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5  fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5  fit:w-6 fit:h-6' }}
                 >
                   <FiLink />
                 </IconContext.Provider>
@@ -84,17 +84,17 @@ export default function Work() {
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">02</h1>
             <div className="h-full  w-52 ml-6 pt-4 normal:w-72 normal:ml-8 fit:ml-12 tempScreen:w-96 tempScreen:pt-8 tempScreen:ml-12 md:w-3/4 md:ml-8 lg:ml-12 lg:w-96 lg:pt-14">
               <h2 className="font-primaryHeading text-txt-primary-dark-bg/80 text-xl normal:text-3xl tempScreen:text-4xl md:text-3xl lg:text-4xl">Bug Traker - A project to track and solve bugs.</h2>
-              <p className="text-tiny my-4 text-txt-primary-dark-bg/60 fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
+              <p className="text-tiny my-4 font-secondaryHeading fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
               <button className="mr-4 tempScreen:mr-8 cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5 fit:w-6 fit:h-6 ' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5 fit:w-6 fit:h-6 ' }}
                 >
                   <FiGithub />
                 </IconContext.Provider>
               </button>
               <button className="cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5  fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5  fit:w-6 fit:h-6' }}
                 >
                   <FiLink />
                 </IconContext.Provider>
@@ -112,17 +112,17 @@ export default function Work() {
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">03</h1>
             <div className="h-full  w-52 ml-6 pt-4 normal:w-72 normal:ml-8 fit:ml-12 tempScreen:w-96 tempScreen:pt-8 tempScreen:ml-12 md:w-3/4 md:ml-8 lg:ml-12 lg:w-96 lg:pt-14">
               <h2 className="font-primaryHeading text-txt-primary-dark-bg/80 text-xl normal:text-3xl tempScreen:text-4xl md:text-3xl lg:text-4xl">Bug Traker - A project to track and solve bugs.</h2>
-              <p className="text-tiny my-4 text-txt-primary-dark-bg/60 fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
+              <p className="text-tiny my-4 font-secondaryHeading fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
               <button className="mr-4 tempScreen:mr-8 cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5 fit:w-6 fit:h-6 ' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5 fit:w-6 fit:h-6 ' }}
                 >
                   <FiGithub />
                 </IconContext.Provider>
               </button>
               <button className="cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5  fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5  fit:w-6 fit:h-6' }}
                 >
                   <FiLink />
                 </IconContext.Provider>
@@ -140,17 +140,17 @@ export default function Work() {
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">04</h1>
             <div className="h-full  w-52 ml-6 pt-4 normal:w-72 normal:ml-8 fit:ml-12 tempScreen:w-96 tempScreen:pt-8 tempScreen:ml-12 md:w-3/4 md:ml-8 lg:ml-12 lg:w-96 lg:pt-14">
               <h2 className="font-primaryHeading text-txt-primary-dark-bg/80 text-xl normal:text-3xl tempScreen:text-4xl md:text-3xl lg:text-4xl">Bug Traker - A project to track and solve bugs.</h2>
-              <p className="text-tiny my-4 text-txt-primary-dark-bg/60 fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
+              <p className="text-tiny my-4 font-secondaryHeading fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
               <button className="mr-4 tempScreen:mr-8 cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5 fit:w-6 fit:h-6 ' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5 fit:w-6 fit:h-6 ' }}
                 >
                   <FiGithub />
                 </IconContext.Provider>
               </button>
               <button className="cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5  fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5  fit:w-6 fit:h-6' }}
                 >
                   <FiLink />
                 </IconContext.Provider>
@@ -168,17 +168,17 @@ export default function Work() {
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">05</h1>
             <div className="h-full  w-52 ml-6 pt-4 normal:w-72 normal:ml-8 fit:ml-12 tempScreen:w-96 tempScreen:pt-8 tempScreen:ml-12 md:w-3/4 md:ml-8 lg:ml-12 lg:w-96 lg:pt-14">
               <h2 className="font-primaryHeading text-txt-primary-dark-bg/80 text-xl normal:text-3xl tempScreen:text-4xl md:text-3xl lg:text-4xl">Bug Traker - A project to track and solve bugs.</h2>
-              <p className="text-tiny my-4 text-txt-primary-dark-bg/60 fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
+              <p className="text-tiny my-4 font-secondaryHeading fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
               <button className="mr-4 tempScreen:mr-8 cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5 fit:w-6 fit:h-6 ' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5 fit:w-6 fit:h-6 ' }}
                 >
                   <FiGithub />
                 </IconContext.Provider>
               </button>
               <button className="cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5  fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5  fit:w-6 fit:h-6' }}
                 >
                   <FiLink />
                 </IconContext.Provider>
@@ -196,17 +196,17 @@ export default function Work() {
             <h1 className="tiny:mt-4 tiny:mr-4 normal:mt-6 normal:mr-6 fit:mt-8 fit:mr-8 sm:mt-12 sm:mr-12 md:mt-8 md:mr-8 lg:mt-12 lg:mr-12">06</h1>
             <div className="h-full  w-52 ml-6 pt-4 normal:w-72 normal:ml-8 fit:ml-12 tempScreen:w-96 tempScreen:pt-8 tempScreen:ml-12 md:w-3/4 md:ml-8 lg:ml-12 lg:w-96 lg:pt-14">
               <h2 className="font-primaryHeading text-txt-primary-dark-bg/80 text-xl normal:text-3xl tempScreen:text-4xl md:text-3xl lg:text-4xl">Bug Traker - A project to track and solve bugs.</h2>
-              <p className="text-tiny my-4 text-txt-primary-dark-bg/60 fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
+              <p className="text-tiny my-4 font-secondaryHeading fit:text-base fit:my-6 fit:leading-5 sm:my-8 md:my-6 md:text-tiny lg:text-base">Reactjs / Nodejs / MongoDB / RestAPI</p>
               <button className="mr-4 tempScreen:mr-8 cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5 fit:w-6 fit:h-6 ' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5 fit:w-6 fit:h-6 ' }}
                 >
                   <FiGithub />
                 </IconContext.Provider>
               </button>
               <button className="cursor-pointer">
                 <IconContext.Provider
-                  value={{ className: 'text-txt-primary-dark-bg opacity-60 w-5 h-5  fit:w-6 fit:h-6' }}
+                  value={{ className: 'text-txt-primary-dark-bg opacity-80 w-5 h-5  fit:w-6 fit:h-6' }}
                 >
                   <FiLink />
                 </IconContext.Provider>

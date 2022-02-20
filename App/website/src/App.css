@@ -4,26 +4,9 @@
 
 
 
-@font-face {
-  font-family: 'HelveticaNowDisplay-Black';
-  src: url('./Assets/font/HelveticaNowDisplay-Black.woff2') format('woff2'),
-    url('./Assets/font/HelveticaNowDisplay-Black.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'HelveticaNowDisplay-Bold';
-  src: url('./Assets/font/HelveticaNowDisplay-Bold.woff2') format('woff2'),
-    url('./Assets/font/HelveticaNowDisplay-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'HelveticaNowDisplay-Medium';
-  src: url('./Assets/font/HelveticaNowDisplay-Medium.woff2') format('woff2'),
-    url('./Assets/font/HelveticaNowDisplay-Medium.woff') format('woff');
-}
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;900&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;900&display=swap');
 
 
 html,
