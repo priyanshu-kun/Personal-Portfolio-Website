@@ -64,6 +64,9 @@ module.exports = {
          '2xl': '1536px',
       },
       extend: {
+         spacing: {
+            '10per':'10%'
+         },
          lineHeight: {
             '12': '2.8rem',
             '16': '3.6rem',

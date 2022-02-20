@@ -5,16 +5,18 @@ import Work from '../Components/Work/Work.jsx'
 import Form from '../Components/Form/Form.jsx'
 import Footer from '../Components/Footer/Footer.jsx'
 import './Home.css'
+import ScrollToBtn from '../Components/ScrollTopBtn/ScrollToBtn.jsx'
 
 
- export default function Home({trigger, nav}) {
+ export default function Home({trigger, nav, setNav}) {
     return (
       <>
-          <Header trigger={trigger} nav={nav}  /> 
+          <Header trigger={trigger} nav={nav} setNav={setNav}  /> 
           <Technologies />
           <Work />
           <Form />
-          <Footer />
+          <Footer /> 
+          <ScrollToBtn />
       </>
     )
 }

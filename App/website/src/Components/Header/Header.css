@@ -28,8 +28,9 @@
 .icons svg:not(:nth-child(3)) {
     cursor: pointer;
 }
-.icons svg:nth-child(3) {
+.icons a svg:nth-child(3) {
     cursor: pointer;
+    fill: none !important;
 }
 
 
@@ -38,7 +39,7 @@
     stroke: #fff;
 }
 
-.icons svg:nth-child(3):hover {
+.icons a svg:nth-child(3):hover {
     stroke: #fff;
 }
 
@@ -82,5 +83,3 @@
 }
 
 
-.header-section {
-}

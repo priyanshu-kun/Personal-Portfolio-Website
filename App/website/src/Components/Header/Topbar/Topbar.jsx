@@ -5,7 +5,7 @@ import Navbar from './Navbar/Navbar';
 import './Topbar.css'
 
 
- export default function Topbar({trigger, nav}) {
+ export default function Topbar({trigger, nav, setNav}) {
 
     
     return (
@@ -20,7 +20,7 @@ import './Topbar.css'
                   <span className='bg-txt-primary-dark-bg menu-icon__line'></span>
                   <span className='bg-txt-primary-dark-bg  menu-icon__line menu-icon__line-right'></span>
               </div>
-            <Navbar  />
+            <Navbar nav={nav} setNav={setNav}  />
           </div> 
         </div>
       </div>
