@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import CPP from "../../Assets/icons/c++.svg"
 import C from "../../Assets/icons/c.svg"
 import PYTHON from "../../Assets/icons/python.svg"
@@ -30,11 +30,11 @@ import Vim from "../../Assets/icons/vim.svg"
 import './Technologies.css'
 
 
- export default function Technologies() {
+export default function Technologies() {
 
 
     const [toogle, setToogle] = useState(1)
-    const [path,setPath] = useState("/ PROGRAMMING / PROGRAMMING-LANGUAGES")
+    const [path, setPath] = useState("/ PROGRAMMING / PROGRAMMING-LANGUAGES")
 
 
     const handleTabs = (number) => {
@@ -93,37 +93,40 @@ import './Technologies.css'
     return (
         <div className="h-screen relative w-full flex items-center justify-center z-nv-1 technologies-section lg:mt-20">
             <div className="skills-cover w-10/12 h-3/5 400:h-4/5 mt-12 relative ">
-                <h1 className=" text-center  text-lg 400:text-2xl  relative font-primaryHeading text-txt-primary-dark-bg before:content-[''] before:absolute before:-bottom-2 before:rounded-full before:left-1/2 before:transform before:-translate-x-2/4 md:before:left-0 md:before:-translate-x-0 md:text-left before:w-11/12 before:h-1 before:bg-background-secondary-accent-color before:max-w-16rem 400:before:h-2 400:before:-bottom-4 md:before:h-2 md:before:-bottom-4 lg:before:max-w-10rem lg:text-xl main-heading lg:before:left-14">Skills, That I have - </h1>
-                <div className="skills bg-background-secondary-dark-color  min-h-20rem w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  rounded-lg border border-solid border-txt-primary-dark-bg/10 max-w-128 lg:max-w-178 lg:px-12 lg:py-4 lg:h-128 ">
-                    <p className="hidden text-tiny font-primaryHeading 400:block 400:text-center text-txt-primary-dark-bg py-6 px-8 lg:px-0 lg:text-left lg:py-0 lg:pt-4 lg:pb-6 lg:text-base" >PATH*  <span className="ml-2 lg:ml-4 opacity-60 font-secondaryHeading text-sm">SKILLS {path}</span></p>
-                    <hr className="divider hidden 400:block  border-t border-solid border-txt-primary-dark-bg/10" />
-                    <div className="w-full flex flex-col lg:flex-row lg:h-4/5 lg:mt-4">
-                        <div className="buttons flex overflow-x-scroll h-full w-full py-6 px-4 items-center border-b border-solid border-txt-primary-dark-bg/10 lg:flex-col lg:overflow-x-hidden  lg:w-60 lg:border-r lg:border-b-0 lg:justify-between lg:py-0 lg:px-0 lg:pr-4">
-                            <button onClick={() => {
-                                handleTabs(1)
-                                setPath("/ PROGRAMMING / PROGRAMMING-LANGUAGES")
-                            }} className={`${toogle === 1 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-7 -mt-2" src={Programming} alt="programming language logo" /><span className=" whitespace-nowrap font-secondaryHeading   -mt-2 text-sm max-w-120px">Programming Lang</span></button>
-                            <button onClick={() => {
-                                handleTabs(2)
-                                setPath("/ DEVELOPMENT / FRONTEND")
-                            }} className={`${toogle === 2 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-7 -mt-2  " src={Frontend} alt="frontend library logo" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading  -mt-2 max-w-120px text-sm">Frontend Frameworks</span></button>
-                            <button onClick={() => {
-                                handleTabs(3)
-                                setPath("/ DEVELOPMENT / BACKEND")
-                            }} className={`${toogle === 3 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-5  " src={Backend} alt="backend library logo" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading  -mt-0 max-w-120px text-sm">Backend Frameworks</span></button>
-                            <button onClick={() => {
-                                handleTabs(4)
-                                setPath("/ DEVELOPMENT / DATABASES")
-                            }} className={`${toogle === 4 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-5  " src={Databases} alt="Databases logo" /><span className=" font-secondaryHeading  -mt-0 max-w-120px">Databases</span></button>
-                            <button onClick={() => {
-                                handleTabs(5)
-                                setPath("/ TECHNOLOGIES / UI_UX+%26+Other's")
-                            }} className={`${toogle === 5 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-6 " src={UI_UX} alt="other technologies logos" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading -mt-1 max-w-120px text-sm">UI/UX & Other's</span></button>
-                        </div>
-                        <div className="h-64 w-full relative overflow-y-auto 400:h-80 lg:h-full">
-                            {
-                                showContent()
-                            }
+                <h1 className=" text-center  text-lg 400:text-2xl  relative font-primaryHeading text-txt-primary-dark-bg before:content-[''] before:absolute before:-bottom-2 before:rounded-full before:left-1/2 before:transform before:-translate-x-2/4 md:before:left-0 md:before:-translate-x-0 md:text-left before:w-11/12 before:h-1 before:bg-background-secondary-accent-color before:max-w-16rem 400:before:h-2 400:before:-bottom-4 md:before:h-2 md:before:-bottom-4 lg:before:max-w-16rem lg:text-xl main-heading lg:before:left-14">(Skills) &nbsp;कौशल, That I have - </h1>
+                <div className='min-h-20rem w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-128 lg:max-w-178 lg:h-128 '>
+                    <div className='absolute -inset-6 opacity-20 bg-gradient-to-r from-background-secondary-accent-color via-red-500  to-yellow-400 rounded-lg animate-tilt'></div>
+                    <div className="relative w-full h-full skills bg-background-secondary-dark-color rounded-xl border border-solid border-txt-primary-dark-bg/10 px-3 py-2 md:px-4 lg:px-6 ">
+                        <p className="hidden text-tiny font-primaryHeading 400:block 400:text-center text-txt-primary-dark-bg py-6 px-8 lg:px-0 lg:text-left lg:py-0 lg:pt-4 lg:pb-6 lg:text-base" >PATH*  <span className="ml-2 lg:ml-4 opacity-60 font-secondaryHeading text-sm">SKILLS {path}</span></p>
+                        <hr className="divider hidden 400:block  border-t border-solid border-txt-primary-dark-bg/10" />
+                        <div className="w-full flex flex-col lg:flex-row lg:h-4/5 lg:mt-4">
+                            <div className="buttons flex overflow-x-scroll h-full w-full py-6 px-4 items-center border-b border-solid border-txt-primary-dark-bg/10 lg:flex-col lg:overflow-x-hidden  lg:w-60 lg:border-r lg:border-b-0 lg:justify-between lg:py-0 lg:px-0 lg:pr-4">
+                                <button onClick={() => {
+                                    handleTabs(1)
+                                    setPath("/ PROGRAMMING / PROGRAMMING-LANGUAGES")
+                                }} className={`${toogle === 1 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-7 -mt-2" src={Programming} alt="programming language logo" /><span className=" whitespace-nowrap font-secondaryHeading   -mt-2 text-sm max-w-120px">Programming Lang</span></button>
+                                <button onClick={() => {
+                                    handleTabs(2)
+                                    setPath("/ DEVELOPMENT / FRONTEND")
+                                }} className={`${toogle === 2 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-7 -mt-2  " src={Frontend} alt="frontend library logo" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading  -mt-2 max-w-120px text-sm">Frontend Frameworks</span></button>
+                                <button onClick={() => {
+                                    handleTabs(3)
+                                    setPath("/ DEVELOPMENT / BACKEND")
+                                }} className={`${toogle === 3 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-5  " src={Backend} alt="backend library logo" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading  -mt-0 max-w-120px text-sm">Backend Frameworks</span></button>
+                                <button onClick={() => {
+                                    handleTabs(4)
+                                    setPath("/ DEVELOPMENT / DATABASES")
+                                }} className={`${toogle === 4 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-5  " src={Databases} alt="Databases logo" /><span className=" font-secondaryHeading  -mt-0 max-w-120px">Databases</span></button>
+                                <button onClick={() => {
+                                    handleTabs(5)
+                                    setPath("/ TECHNOLOGIES / UI_UX+%26+Other's")
+                                }} className={`${toogle === 5 && "tabs-active"} h-16 mr-4 px-2 text-tiny box-border flex flex-col items-center justify-center rounded-lg lg:mr-0 lg:w-full`}><img className="w-6 " src={UI_UX} alt="other technologies logos" /><span className=" whitespace-nowrap overflow-hidden font-secondaryHeading -mt-1 max-w-120px text-sm">UI/UX & Other's</span></button>
+                            </div>
+                            <div className="h-64 w-full relative overflow-y-auto 400:h-80 lg:h-full">
+                                {
+                                    showContent()
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>

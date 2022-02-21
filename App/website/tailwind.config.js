@@ -49,6 +49,8 @@ module.exports = {
          'txt-primary-light-bg': colors.black,
          'txt-secondary-light-bg': '#474747',
          'red': colors.red,
+         'green': colors.green,
+         'yellow': colors.yellow,
          'success': '#22C55E'
       },
       screens: {
@@ -64,8 +66,43 @@ module.exports = {
          '2xl': '1536px',
       },
       extend: {
+         animation: {
+            tilt: 'tilt 6s infinite linear',
+            tiltBtn: 'tiltBtn 6s infinite linear',
+          },
+          keyframes: {
+            tilt: {
+              '0%, 50%, 100%': {
+                transform: 'rotate(0deg)',
+                filter: 'blur(60px) hue-rotate(0deg)'
+              },
+              '25%': {
+                transform: 'rotate(3.5deg)',
+                filter: 'blur(60px) hue-rotate(180deg)'
+              },
+              '75%': {
+                transform: 'rotate(-3.5deg)',
+                filter: 'blur(60px) hue-rotate(360deg)'
+              },
+            },
+            tiltBtn: {
+              '0%, 50%, 100%': {
+                transform: 'rotate(0deg)',
+                filter: 'blur(8px) hue-rotate(0deg)'
+              },
+              '25%': {
+                transform: 'rotate(0.6deg)',
+                filter: 'blur(8px) hue-rotate(180deg)'
+              },
+              '75%': {
+                transform: 'rotate(-0.6deg)',
+                filter: 'blur(8px) hue-rotate(360deg)'
+              },
+            },
+          },
          spacing: {
-            '10per':'10%'
+            '10per':'10%',
+            '6.5': '1.6rem'
          },
          lineHeight: {
             '12': '2.8rem',

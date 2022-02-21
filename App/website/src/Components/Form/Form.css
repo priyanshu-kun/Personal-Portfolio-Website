@@ -9,13 +9,23 @@
 
 .form input {
     padding: 20px 30px;
-    margin-bottom: 8px;
     background-color: transparent;
     border: 3px solid rgb(255, 255, 255, 0.1);
     box-sizing: border-box;
     font-family: "HelveticaNowDisplay-Black";
     outline: none;
 }
+
+
+.input-wrap {
+    transition: all 0.2s ease;
+}
+
+
+.input-wrap:focus-within {
+    margin-top: 25px;
+}
+
 
 .form textarea {
     padding: 20px 30px;
@@ -32,10 +42,3 @@
     border-color: #FF6D42;
 }
 
-.form input::placeholder,
-.form textarea::placeholder {
-    color: #fff;
-    font-weight: bold;
-    /* font-family: "HelveticaNowDisplay-Black"; */
-    letter-spacing: 2px;
-}

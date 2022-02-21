@@ -142,8 +142,14 @@
 
 
 .tabs-active {
-    background-image: linear-gradient(
-		40deg,#5927E9,#FF6D42);
+   
+    
+    background: rgba(0, 0, 0, 0) linear-gradient(92.88deg, #5927E9 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%) repeat scroll 0% 0%;
+   border: medium none;
+    transition: all 0.5s ease 0s;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+
+
 }
 
 
@@ -163,138 +169,6 @@
     opacity: 1;
 }
 
-
-
-.skills-cover::before {
-    content: "";
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-40%);
-    width: 160px;
-    height: 160px;
-    background-color: rgba(243, 70, 142, 0.3);
-    box-shadow: -18vw 10vh 0 rgb(89, 39, 233,0.3);
-    border-radius: 50%;
-    animation: animate 5s linear infinite;
-}
-
-
-.skills-cover::after {
-    content: "";
-    position: absolute;
-    bottom: 22%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 160px;
-    height: 160px;
-    background-color: rgb(141, 255, 8, 0.3);
-    box-shadow: 20vw -10vh 0 rgb(255, 235, 59,0.3);
-    border-radius: 50%;
-    animation: animate 5s linear infinite;
-    z-index: -1;
-}
-
-
-
-
-@media screen and (min-width: 400px) {
-
-    .skills-cover::before {
-        top: 30%;
-        transform: translate(-50%,-30%);
-        width: 230px;
-        height: 230px;
-        box-shadow: -16vw 10vh 0 rgb(89, 39, 233, 0.3);
-    }
-
-
-    .skills-cover::after {
-        bottom: 16%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 230px;
-        height: 230px;
-        box-shadow: 13vw -12vh 0 rgb(255, 235, 59,0.3);
-    }
-}
-
-@media screen and (min-width: 640px) {
-
-    .skills-cover::before {
-        top: 40%;
-        transform: translate(-50%,-40%);
-        width: 300px;
-        height: 300px;
-        box-shadow: -20vw 8vh 0 rgb(89, 39, 233, 0.3);
-    }
-
-
-    .skills-cover::after {
-        bottom: 15%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 300px;
-        height: 300px;
-        box-shadow: 16vw -12vh 0 rgb(255, 235, 59,0.3);
-    }
-}
-
-
-
-@media screen and (min-width: 768px) {
-
-    .skills-cover::before {
-        top: 40%;
-        transform: translate(-50%,-40%);
-        width: 400px;
-        height: 400px;
-        box-shadow: -15vw 8vh 0 rgb(89, 39, 233, 0.3);
-    }
-
-
-    .skills-cover::after {
-        bottom: 10%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 400px;
-        height: 400px;
-        box-shadow: 10vw -8vh 0 rgb(255, 235, 59,0.3);
-    }
-}
-@media screen and (min-width: 1024px) {
-
-    .skills-cover::before {
-        top: 40%;
-        transform: translate(-50%,-40%);
-        width: 400px;
-        height: 400px;
-        box-shadow: -15vw 8vh 0 rgb(89, 39, 233, 0.3);
-    }
-
-
-    .skills-cover::after {
-        bottom: 10%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 400px;
-        height: 400px;
-        box-shadow: 10vw -8vh 0 rgb(255, 235, 59,0.3);
-    }
-}
-
-
-
-@keyframes animate {
-    0% {
-        filter: blur(80px) hue-rotate(0deg);
-    }
-
-    100% {
-
-        filter: blur(80px) hue-rotate(360deg);
-    }
-}
 
 
 @media screen and (min-width: 1024px) {
