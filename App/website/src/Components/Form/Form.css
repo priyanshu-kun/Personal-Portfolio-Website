@@ -27,6 +27,15 @@
 }
 
 
+.input-wrap-1 > h1 {
+    transition: all 0.2s ease;
+}
+
+.input-wrap-1:focus-within > h1 {
+    margin-bottom: 26px;
+}
+
+
 .form textarea {
     padding: 20px 30px;
     background-color: transparent;

@@ -102,7 +102,10 @@ module.exports = {
           },
          spacing: {
             '10per':'10%',
-            '6.5': '1.6rem'
+            '6.5': '1.6rem',
+            '5.5': '1.35rem',
+            '11.5': '2.85rem',
+            '12.5': '3.1rem'
          },
          lineHeight: {
             '12': '2.8rem',
