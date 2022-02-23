@@ -9,12 +9,6 @@ if(browserZoomLevel > 110) {
 }
 
 
-window.addEventListener('resize', () => {
-  const zoom = Math.round(window.devicePixelRatio * 100);
-
-})
-
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

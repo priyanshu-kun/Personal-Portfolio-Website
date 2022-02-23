@@ -186,4 +186,8 @@
     .tech-cover {
         height: 900px !important;
     }  
+    .skills-cover {
+        transform: scale(0.8);
+    }
 }
+

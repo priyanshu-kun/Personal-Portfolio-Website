@@ -97,3 +97,8 @@
         transform: scale(0.8);
     }
 }
+
+
+.header-section {
+    max-height: 1200px;
+}
