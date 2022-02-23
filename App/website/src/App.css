@@ -171,6 +171,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
+body {
+  zoom: 100%;
+}
 
 
 .App {

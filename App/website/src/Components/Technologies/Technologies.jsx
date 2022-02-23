@@ -91,7 +91,7 @@ export default function Technologies() {
 
 
     return (
-        <div className="h-screen relative w-full flex items-center justify-center z-nv-1 technologies-section lg:mt-20">
+        <div className="tech-cover h-screen relative w-full flex items-center justify-center z-nv-1 technologies-section lg:mt-20">
             <div className="skills-cover w-10/12 h-3/5 400:h-4/5 mt-12 relative ">
                 <h1 className=" text-center  text-lg 400:text-2xl  relative font-primaryHeading text-txt-primary-dark-bg before:content-[''] before:absolute before:-bottom-2 before:rounded-full before:left-1/2 before:transform before:-translate-x-2/4 md:before:left-0 md:before:-translate-x-0 md:text-left before:w-11/12 before:h-1 before:bg-background-secondary-accent-color before:max-w-16rem 400:before:h-2 400:before:-bottom-4 md:before:h-2 md:before:-bottom-4 lg:before:max-w-16rem lg:text-xl main-heading lg:before:left-14">(Skills) &nbsp;कौशल, That I have - </h1>
                 <div className='min-h-20rem w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-w-128 lg:max-w-178 lg:h-128 '>

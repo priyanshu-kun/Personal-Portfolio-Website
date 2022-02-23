@@ -88,3 +88,12 @@
 }
 
 
+@media screen and (max-height: 800px) {
+    .header-info {
+        transform: scale(0.8);
+    }
+    .icons {
+
+        transform: scale(0.8);
+    }
+}

@@ -25,7 +25,7 @@ import Topbar from './Topbar/Topbar.jsx'
           <div className='canvas-design  h-full w-full absolute top-0 left-0'>
             <canvas  ref={inputEl} id='sky' ></canvas>
           </div>
-        <div className='w-auto flex flex-col sm:items-center'>
+        <div className='header-info w-auto flex flex-col sm:items-center'>
           <div className='pl-8 flex flex-col justify-start sm:justify-center sm:items-center sm:px-8'>
             <small className='text-super-tiny text-txt-secondary-light-bg font-primaryHeading  mb-3 inline-block tracking-widest tag-line normal:text-tiny'>PRIYANSHU SHARMA</small>
             <h1 className='text-txt-primary-dark-bg font-primaryHeading font-black text-3xl mb-8 normal:text-4xl 400:text-5xl 400:w-80 sm:w-auto sm:text-6xl sm:max-w-128 md:text-7xl md:max-w-168 sm:text-center lg:text-8xl lg:max-w-178'>I&apos;m a <span className='custom-text-style font-primaryHeading font-black custom-text-style font-heading'>Full Stack Web Developer.</span></h1>

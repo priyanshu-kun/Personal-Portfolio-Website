@@ -181,3 +181,9 @@
 .technologies-section {
     max-height: 1000px;
 }
+
+@media screen and (max-height: 800px) {
+    .tech-cover {
+        height: 900px !important;
+    }  
+}

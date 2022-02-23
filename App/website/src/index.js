@@ -5,8 +5,14 @@ import App from './App';
 const browserZoomLevel = Math.round(window.devicePixelRatio * 100);
 
 if(browserZoomLevel > 110) {
-  alert("Please make sure your device width is below than 100% - to perfectly render this site")
+  alert("Please make sure your device zoom level is below than 110% - to perfectly render this site")
 }
+
+
+window.addEventListener('resize', () => {
+  const zoom = Math.round(window.devicePixelRatio * 100);
+
+})
 
 
 ReactDOM.render(
