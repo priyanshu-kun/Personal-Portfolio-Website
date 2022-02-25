@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FiGithub, FiLink } from "react-icons/fi"
 import { IconContext } from 'react-icons'
 import SearchBar from './Search/Search.jsx'
@@ -10,10 +10,32 @@ import img3 from "../../Assets/images/img3.jpg"
 import img4 from "../../Assets/images/img4.jpg"
 import img5 from "../../Assets/images/img5.jpg"
 import img6 from "../../Assets/images/img6.jpg"
+import {client} from "../../client"
 import "./Work.css"
 
 
 export default function Work() {
+
+  const [Projects, setProjects] = useState([])
+
+  useEffect(() => {
+    let query = '*[_type == "works"]' 
+    client.fetch(query)
+      .then(data => console.log(data))
+   
+  }, [])
+  
+
+
+  const projects = [
+    {
+      title: 'Bug Traker - A project to track and solve bugs.',
+      projectLink: "localhost:3000",
+      codeLink: "github.com/priyanshuSharma-WebDev",
+      imageUrl: '',
+      tags: []
+    }
+  ]
 
 
   const [searchComp, setSearchComp] = useState(false)

@@ -5,6 +5,7 @@ import starryNight from '../../utils/starryNight.js'
 import {IconContext} from 'react-icons'
 import { FiGithub, FiLinkedin, FiMail, FiTwitter, FiArrowRight } from 'react-icons/fi';
 import Topbar from './Topbar/Topbar.jsx'
+import Mail from "../../Assets/icons/mail.png"
 
 
  export default function Header({trigger, nav, setNav }) {
@@ -50,9 +51,9 @@ import Topbar from './Topbar/Topbar.jsx'
                             >
                                 <a href="https://github.com/priyanshuSharma-WebDev" target="_blank" ><FiGithub /></a>
                                 <a href="https://www.linkedin.com/in/priyanshu-sharma-555586163" target="_blank" ><FiLinkedin /></a> 
-                                <a href="#contactMe"  ><FiMail /></a> 
+                                <a href="#contactMe"  ><img className='w-10 mail-3d' src={Mail} alt="mail icon" /></a> 
                                 <a href="https://twitter.com/priyans18648307" target="_blank" ><FiTwitter /></a>
-                          </IconContext.Provider>
+                         </IconContext.Provider>
                 </div>
       </header>
     )

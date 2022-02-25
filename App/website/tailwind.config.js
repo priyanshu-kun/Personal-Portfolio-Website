@@ -33,6 +33,7 @@ module.exports = {
          '6xl': '4rem',
          '7xl': '4.6rem',
          '8xl': '6rem',
+         'sxxl': '12rem',
          'fulid': '7vw'
       },
       colors: {
