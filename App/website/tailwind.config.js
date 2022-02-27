@@ -13,6 +13,7 @@ module.exports = {
          '168': '42rem',
          '178': '52rem',
          '76rem': '76rem',
+         '86rem': '86rem',
       },
       minWidth: {
          '80': '20rem',
@@ -103,7 +104,7 @@ module.exports = {
           },
          spacing: {
             '10per':'10%',
-            '6.5': '1.6rem',
+            '6.5': '1.52rem',
             '5.5': '1.35rem',
             '11.5': '2.85rem',
             '12.5': '3.1rem'

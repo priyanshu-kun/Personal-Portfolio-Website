@@ -1,3 +1,9 @@
+
+.work-search-bar {
+    color: black;
+}
+
+
 .work-search-bar:focus {
     box-shadow: 0 0 0 3px #5927E9;
     transition: box-shadow 0.3s ease;
