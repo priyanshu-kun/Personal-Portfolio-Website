@@ -12,31 +12,9 @@
     background-color: transparent;
     border: 3px solid rgb(255, 255, 255, 0.1);
     box-sizing: border-box;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: 'HelveticaNowDisplay-Medium';
     outline: none;
 }
-
-
-
-
-/* input:not(:placeholder-shown), textarea:not(:placeholder-shown) {
-    margin-top: 26px;
-}
-
-input:not(:placeholder-shown) +  .name-input-field {
-    color: red;
-    top: 31px;
-}
-
-input:not(:placeholder-shown) + label:not(.name-input-field), textarea:not(:placeholder-shown) + label {
-    top: 8px;
-} */
-
-
-
-
-
-
 
 
 
@@ -45,7 +23,7 @@ input:not(:placeholder-shown) + label:not(.name-input-field), textarea:not(:plac
     background-color: transparent;
     border: 3px solid rgb(255, 255, 255, 0.1);
     box-sizing: border-box;
-    font-family: "HelveticaNowDisplay-Medium";
+    font-family: 'HelveticaNowDisplay-Medium';
     outline: none;
     transition: all 0.3s ease;
 }

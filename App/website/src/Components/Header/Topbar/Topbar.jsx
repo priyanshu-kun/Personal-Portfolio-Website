@@ -1,6 +1,4 @@
-import React, {useState} from 'react'
-import {IconContext} from 'react-icons'
-import { FiMoon, FiSun } from 'react-icons/fi';
+import React from 'react'
 import Navbar from './Navbar/Navbar';
 import './Topbar.css'
 

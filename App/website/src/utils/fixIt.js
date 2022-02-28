@@ -8,7 +8,7 @@ export default function fixIt(ArrayOfObjs) {
        return ArrayOfObjs
    }
    catch(e) {
-       console.log("I messed up something in fixIt function: ", e.message)
+       console.log('I messed up something in fixIt function: ', e.message)
        return [];
    }
 }

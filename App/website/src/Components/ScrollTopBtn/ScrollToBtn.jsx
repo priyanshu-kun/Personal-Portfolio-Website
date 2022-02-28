@@ -19,7 +19,6 @@ export default function ScrollToBtn() {
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 500) {
-      // alert("kaboom")
       setTriggerBtn(true);
     }
     else {

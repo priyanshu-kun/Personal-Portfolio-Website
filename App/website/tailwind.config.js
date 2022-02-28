@@ -34,6 +34,7 @@ module.exports = {
          '6xl': '4rem',
          '7xl': '4.6rem',
          '8xl': '6rem',
+         '9xl': '8rem',
          'sxxl': '12rem',
          'fulid': '7vw'
       },
@@ -113,6 +114,7 @@ module.exports = {
             '12': '2.8rem',
             '16': '3.6rem',
             '18': '4.2rem',
+            '20': '5.6rem',
          },
          transitionDelay: {
             '350': '350ms',

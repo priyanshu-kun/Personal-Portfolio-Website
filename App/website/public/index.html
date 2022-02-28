@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang='en' class='scroll-smooth'>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <!-- <link rel="preload" href="./style/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='theme-color' content='#000000' />
+  <meta name='description' content='Web site created using create-react-app' />
+  <!-- <link rel='preload' href='./style/style.css' as='style' onload='this.onload=null;this.rel='stylesheet''> -->
+  <script src='https://www.google.com/recaptcha/api.js' async defer></script> 
 
   <style>
     
@@ -399,31 +399,29 @@
 </head>
 <body>
   <noscript>
-    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+    <!-- <link rel='stylesheet' href='./style/style.css'> -->
   </noscript>
-  <div  class="loader-overlay">
-        <div class="wrapper">
-          <div class="box-wrap">
-            <div class="box one"></div>
-            <div class="box two"></div>
-            <div class="box three"></div>
-            <div class="box four"></div>
-            <div class="box five"></div>
-            <div class="box six"></div>
+  <div  class='loader-overlay'>
+        <div class='wrapper'>
+          <div class='box-wrap'>
+            <div class='box one'></div>
+            <div class='box two'></div>
+            <div class='box three'></div>
+            <div class='box four'></div>
+            <div class='box five'></div>
+            <div class='box six'></div>
           </div>
         </div>
-        <h1 class="loader-msg">Keep calm, your stuff is being loading.</h1>
+        <h1 class='loader-msg'>Keep calm, your stuff is being loading.</h1>
   </div>
-  <div class="root-loading-animations-inactive" id="root"></div>
+  <div class='root-loading-animations-inactive' id='root'></div>
   <script>
       window.addEventListener('load', () => {
           const loader = document.querySelector('.loader-overlay');
           const root = document.querySelector('#root'); 
-          setTimeout(() => {
-            loader.style.display = "none" 
-            document.querySelector('body').style.overflow = "initial"
-            root.classList.add("root-loading-animations-active");
-          }, 2000);
+          loader.style.display = 'none' 
+          document.querySelector('body').style.overflow = 'initial'
+          root.classList.add('root-loading-animations-active');
       })
   </script>
 </body>

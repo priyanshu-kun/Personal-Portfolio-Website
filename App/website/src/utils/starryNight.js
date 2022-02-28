@@ -22,9 +22,7 @@ export default  (inputEl) => {
 
 
     const canvas = inputEl.current
-    console.log(canvas)
     const ctx = canvas.getContext('2d')
-    console.log(ctx)
 
 
 

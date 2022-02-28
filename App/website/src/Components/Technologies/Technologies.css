@@ -118,7 +118,7 @@
         padding: 10px !important;
     }
     .buttons button::after {
-        content: "";
+        content: '';
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -189,4 +189,15 @@
     .technology-box {
         transform: translate(-50%,-50%) scale(0.8);
     }
+}
+
+
+
+[data-aos='custom-ani'] {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+[data-aos='custom-ani'].aos-animate {
+    opacity: 0.2;
 }
