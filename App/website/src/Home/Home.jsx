@@ -1,21 +1,23 @@
-import React from 'react'
+import React, {Suspense, lazy} from 'react'
 import Header from '../Components/Header/Header.jsx'
 import Technologies from '../Components/Technologies/Technologies.jsx'
-import Work from '../Components/Work/Work.jsx'
-import Form from '../Components/Form/Form.jsx'
-import Footer from '../Components/Footer/Footer.jsx'
 import ScrollToBtn from '../Components/ScrollTopBtn/ScrollToBtn.jsx'
+const Work = lazy(() => import('../Components/Work/Work.jsx'))
+const Form = lazy(() => import('../Components/Form/Form.jsx'))
+const Footer = lazy(() => import('../Components/Footer/Footer.jsx'))
 
 
  export default function Home({trigger, nav, setNav}) {
     return (
       <>
-          <Header trigger={trigger} nav={nav} setNav={setNav}  /> 
-          <Technologies />
-          <Work />
-          <Form />
-          <Footer /> 
-          <ScrollToBtn />
+        <Header trigger={trigger} nav={nav} setNav={setNav}  /> 
+        <Technologies />
+        <Suspense fallback={<div>Loading...</div>} >
+            <Work />
+            <Form />
+            <Footer /> 
+        </Suspense>
+        <ScrollToBtn />
       </>
     )
 }

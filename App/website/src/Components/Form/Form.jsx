@@ -56,12 +56,13 @@ export default function Form() {
 
   return (
     <div className='py-16 lg:py-0 lg:h-screen flex overflow-hidden border-t border-solid border-txt-secondary-dark-bg/10' >
-      <div data-aos='fade-right' id='contactMe' className='sidebar hidden lg:block w-4/12 relative max-w-128'><span className='font-primaryHeading text-txt-primary-dark-bg inline-block transform -rotate-90 text-8xl w-168 text-center  absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2'>NOW, <br /> YOUR TURN</span></div>
+      <div data-aos='fade-right' data-aos-delay="600" id='contactMe' className='sidebar hidden lg:block w-4/12 relative max-w-128'><span className='font-primaryHeading text-txt-primary-dark-bg inline-block transform -rotate-90 text-8xl w-168 text-center  absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2'>NOW, <br /> YOUR TURN</span></div>
       <div className='form w-11/12  mx-auto flex items-center justify-center max-w-128'>
         {
+
           !isSubmitted ? (
 
-            <form data-aos='fade' data-aos-delay='100' onSubmit={handleSubmitForm} action='#' className='flex flex-col w-full'>
+            <form data-aos='fade' data-aos-delay='300' onSubmit={handleSubmitForm} action='#' className='flex flex-col w-full'>
 
               <h1 className='text-txt-primary-dark-bg/60 font-primaryHeading text-base mb-2 ml-2 transition-all' >CONTACT ME</h1>
               <div className='flex flex-col' >
@@ -105,10 +106,10 @@ export default function Form() {
                     theme='dark'
                     type='image'
                     onErrored={() => {
-                        setIsRecaptchaCheck(false);
+                      setIsRecaptchaCheck(false);
                     }}
                     onExpired={() => {
-                        setIsRecaptchaCheck(false);
+                      setIsRecaptchaCheck(false);
                     }}
                   />
                 </div>
