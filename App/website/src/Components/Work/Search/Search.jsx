@@ -41,7 +41,7 @@ export default function Search({ searchComp, handleSearchComponent, Projects, fi
                 <input onChange={handleInputData} value={wordEntered} className='text-tiny font-secondaryHeading work-search-bar inline-block absolute h-full w-full px-6 shadow-lg rounded-xl text-black outline-none sm:text-base' type='text' placeholder='Search for something!' />
                 <button onClick={handleSearchBarClose} className='absolute right-6 top-2/4 transform -translate-y-1/2 z-10'><img src={X} alt="cancel search bar" /></button>
             </div>
-            <div className={`search-list-bar w-full h-auto max-h-80 bg-txt-primary-dark-bg mt-2 overflow-y-scroll overflow-x-hidden rounded-xl  shadow-lg ${searchComp && 'search-list-active sm:overflow-y-hidden'} `}>
+            <div className={`search-list-bar w-full h-auto max-h-80 bg-txt-primary-dark-bg mt-2 overflow-y-scroll overflow-x-hidden rounded-xl  shadow-lg ${searchComp && 'search-list-active sm:overflow-y-hidden'} pb-3`}>
 
                 <h1 className='text-txt-primary-light-bg font-primaryHeading mt-3 ml-6 mb-2 font-heading text-xl py-2'>Projects - </h1>
                 <hr className='w-11/12 mx-auto mb-2 border-b border-txt-primary-light-bg/10 border-solid' />

@@ -92,10 +92,29 @@
     .header-info {
         transform: scale(0.8);
     }
-    .icons {
 
-        transform: scale(0.8);
+    .shd-heading-content {
+        padding-left: 0;
     }
+
+    .shd-heading-btn {
+        margin-left: 0;
+    }
+
+    .shd-heading-icons {
+        margin-top: -20px;
+        margin-left: 10%;
+    }
+ 
+}
+
+
+@media  (max-height: 800px) and (min-width: 640px) {
+    .shd-heading-icons {
+        margin-top: -20px;
+        margin-left: 0;
+    }
+ 
 }
 
 

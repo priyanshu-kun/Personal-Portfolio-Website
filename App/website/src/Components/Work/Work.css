@@ -13,16 +13,6 @@
 }
 
 
-.projects {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, auto);
-    row-gap: 2rem;
-    position: relative;
-}
-
-
-
 .projects img {
     width:100%;
    height: auto;
@@ -41,46 +31,8 @@
                     -40deg,#5927E9,#bb1aca); */
 }
     
-.projects-overlay h1 {
-    font-size: 40vw;
-    font-family: 'HelveticaNowDisplay-Black';
-    opacity: 0.2;
-    color: #fff;
-    text-align: right;
-    -webkit-text-stroke: 3px rgba(0,0,0,0.1);
-
-}
-
-
-
-
-@media screen and (min-width: 768px) {
-    .projects {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem;
-        grid-template-rows: repeat(3, auto);
-    }
-
-}
-
-
-@media screen and (min-width: 1024px) {
-    .projects {
-        grid-gap: 2rem;
-    }
-}
 
 .projects-overlay p {
     color: rgb(182, 182, 182);
     letter-spacing: 1px;
-}
-
-
-.hide-project-overlay {
-    opacity: 0;
-}
-
-
-.show-project-overlay {
-    opacity: 1;
 }
