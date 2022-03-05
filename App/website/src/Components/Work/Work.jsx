@@ -64,7 +64,7 @@ export default function Work() {
   return (
     <div className='h-auto lg:mt-20 overflow-y-hidden flex flex-col items-center justify-center mb-20'>
       <div className='relative text-txt-primary-dark-bg flex flex-col w-full justify-between items-center 400:mt-12  mx-auto sm:flex-row sm:items-center sm:justify-between sm:w-10/12 lg:w-8/12'>
-        <h1 id='seeMyWork' className={`scroll-mt-32 custom-animation ${searchComp && 'active'} font-primaryHeading relative before:content-[''] before:absolute before:-bottom-2 before:left-1/2 before:transform before:-translate-x-2/4 before:w-11/12 mx-6 before:h-1 before:bg-background-secondary-accent-color before:rounded-full text-base leading-5 text-center mb-8  normal:text-lg normal:before:w-full sm:text-2xl sm:before:h-2 sm:before:-bottom-4 sm:before:left-60 sm:mb-0 sm:max-w-128 sm:mx-0`}>Project, that I've  &nbsp;काम&nbsp; (worked) on -</h1>
+        <h1 id='seeMyWork' className={`scroll-mt-28 md:scroll-mt-32 custom-animation ${searchComp && 'active'} font-primaryHeading relative before:content-[''] before:absolute before:-bottom-2 before:left-1/2 before:transform before:-translate-x-2/4 before:w-11/12 mx-6 before:h-1 before:bg-background-secondary-accent-color before:rounded-full text-base leading-5 text-center mb-8  normal:text-lg normal:before:w-full sm:text-2xl sm:before:h-2 sm:before:-bottom-4 sm:before:left-60 sm:mb-0 sm:max-w-128 sm:mx-0`}>Project, that I've  &nbsp;काम&nbsp; (worked) on -</h1>
         <div className='actions flex z-10'>
           {
             SearchedData.length > 0 ? (
@@ -118,7 +118,7 @@ export default function Work() {
             Array.isArray(Projects) && Projects.length > 0 && (
 
               (FilteredData.length > 0 ? FilteredData: Projects).map(({ title, tags, imgUrl, codeLink, projectLink }, i) => {
-                return <div key={title} data-aos="fade-up" data-aos-easing='ease-in-cubic' className='test-width w-full h-full mx-auto relative overflow-hidden'>
+                return <div key={title} data-aos="fade-up" data-aos-easing='ease-in-cubic' className='mx-auto relative overflow-hidden top-0 left-0 right-0 bottom-0'>
                   <img className='opacity-80' src={urlFor(imgUrl)} alt={title} />
                   <div className={`projects-overlay absolute top-0 left-0 bottom-0 right-0 flex flex-col justify-between transition-all duration-200 opacity-0 hover:opacity-100`}>
                     <div className='h-full w-full flex flex-col items-center justify-center'>
