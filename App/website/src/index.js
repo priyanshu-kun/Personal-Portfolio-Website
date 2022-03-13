@@ -1,13 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render, hydrate } from 'react-dom';
 import App from './App';
 
 // const browserZoomLevel = Math.round(window.devicePixelRatio * 100);
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const root = document.getElementById("root");
+if (root.hasChildNodes()) {
+  hydrate(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    root);
+} else {
+  render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    root);
+}

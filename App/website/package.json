@@ -26,6 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "postbuild": "react-snap",
     "deploy-production": "react-scripts build && scp -r ./build/* root@157.245.106.35:/var/www/priyanshusharma.me/html"
   },
   "eslintConfig": {
