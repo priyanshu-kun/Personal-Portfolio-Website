@@ -62,7 +62,7 @@ export default function Work() {
 
 
   return (
-    <div className='h-auto lg:mt-20 overflow-y-hidden flex flex-col items-center justify-center mb-20'>
+    <div className='h-auto lg:mt-40 overflow-y-hidden flex flex-col items-center justify-center mb-20'>
       <div className='relative text-txt-primary-dark-bg flex flex-col w-full justify-between items-center 400:mt-12  mx-auto sm:flex-row sm:items-center sm:justify-between sm:w-10/12 lg:w-8/12'>
         <h1 id='seeMyWork' className={`scroll-mt-28 md:scroll-mt-32 custom-animation ${searchComp && 'active'} font-primaryHeading relative before:content-[''] before:absolute before:-bottom-2 before:left-1/2 before:transform before:-translate-x-2/4 before:w-11/12 mx-6 before:h-1 before:bg-background-secondary-accent-color before:rounded-full text-base leading-5 text-center mb-8  normal:text-lg normal:before:w-full sm:text-2xl sm:before:h-2 sm:before:-bottom-4 sm:before:left-60 sm:mb-0 sm:max-w-128 sm:mx-0`}>Project, that I've  &nbsp;काम&nbsp; (worked) on -</h1>
         <div className='actions flex z-10'>
